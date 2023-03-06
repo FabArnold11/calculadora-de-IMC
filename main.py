@@ -8,6 +8,8 @@ altura = float(input("Altura em metros: "))
 
 imc = peso/(altura * altura)
 
+print("Seu IMC é: %.2f", imc)
+
 if 0 <= imc <= 18.49:
     print("Você está abaixo do peso ideal!")
 elif 18.5 <= imc <= 24.99:
